@@ -1,0 +1,141 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)), url(../images/main-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+p,h1,h2,h3,h4,h5,h6,a {
+  font-family: Helvetica;
+}
+
+header {
+  background-color: transparent;
+  padding: 0 100px;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo1 {
+   max-width: 110px;
+}
+
+.base {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;  
+  font-weight: bold;
+}
+
+.nav-bar ul li a:hover {
+  color: #fefefe;
+  background:rgb(32, 71, 129);
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.2s ease;
+}
+
+footer {
+  justify-content: center;
+  background-color: transparent;
+  position: fixed;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.shop-list {  
+ justify-content: center;
+ border-radius: 4px; 
+}
+
+.big {
+  font-size: 500px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  box-shadow: #fefefe 5px;
+  box-shadow: 10px 15px 20px rgba(221, 221, 221, 0.2);
+}
+
+.hp-text {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.justify {
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+
+.card-img-top2 {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.products-bg {
+ background-color: #fefefe;
+}
+
+.drevaky{
+  width: 18rem;
+}
+
+.card-img-top3 {
+  margin-top: 32px;
+}
+
+.card-img-top4 {
+  margin-top: 5px;
+}
+
+.textA {
+font-weight: bold;
+font-size: 25px;
+}
+
